@@ -1,4 +1,6 @@
 class Company < ApplicationRecord
+	attr_accessor :cofounder_string
+	attr_accessor :investor_string
 	has_and_belongs_to_many :categories, class_name: 'Category', join_table: 'categories_companies'
 	has_and_belongs_to_many :products, class_name: 'Product', join_table: 'companies_products'
 	has_and_belongs_to_many :investors, class_name: 'Investor', join_table: 'companies_investors'

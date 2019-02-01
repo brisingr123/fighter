@@ -27,6 +27,14 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 			f.input :team_size
 			
 		end
+
+		f.inputs 'Co-Founders' do 
+			f.input :cofounder_string, label: "Comma separated, add multiple"
+		end
+		
+		f.inputs 'Investors' do 
+			f.input :investor_string, label: "Comma separated, add multiple"
+		end
 		f.inputs 'City' do 
 			f.input :city_id , :as => :search_select , required: true
 		end
@@ -46,12 +54,12 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 	controller do 
 		def create 
 			@company = Company.create(company_params)
-			puts @company.id 
-			puts categories
-			puts categories.length
+
 
 			@company.categories << Category.find(categories)
 			@company.products << Product.find(products)
+			@company.cofounders << cofounders
+			@company.investors << investors
 			redirect_to resource_path(@company)
 		end
 
@@ -63,6 +71,18 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 
 			previous_categories = @company.categories
 			@company.categories.delete(previous_categories)
+			if !params[:company][:cofounder_string].blank?
+				previous_cofounders = @company.cofounders
+				@company.cofounders.delete(previous_cofounders)
+				@company.cofounders << cofounders
+			end
+
+			if !params[:company][:investor_string].blank?
+				previous_investors = @company.investors
+				@company.investors.delete(previous_investors)
+				@company.investors << investors
+			end
+
 			@company.categories << Category.find(categories)
 			@company.products << Product.find(products)
 			@company.update(company_params)
@@ -82,6 +102,32 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 		def products 
 			params[:company][:products].reject { |e| e.to_s.empty? }
 		end
+
+		def cofounders
+			cof_params = params[:company][:cofounder_string]
+			cof_names = cof_params.split(",")
+			cofs = []
+			cof_names.each do |name|
+				name = name.strip 
+				cofounder = Cofounder.find_by(name: name)
+				cofounder ? (cofs << cofounder ) : (cofs << Cofounder.create(name: name))
+			end
+			cofs 
+		end
+
+		def investors
+			cof_params = params[:company][:investor_string]
+			cof_names = cof_params.split(",")
+			cofs = []
+			cof_names.each do |name|
+				name = name.strip 
+				investor = Investor.find_by(name: name)
+				investor ? (cofs << investor ) : (cofs << Investor.create(name: name))
+			end
+			cofs 
+		end
+
+
 	end
 	
 	show do 
@@ -95,7 +141,10 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 			row :team_size
 			row :city
 			list_row "Cofounders" do |c|
-				c.cofounders.map{|e| e.name}
+				c.cofounders.map{|e| link_to e.name, admin_cofounder_path(e)}
+			end
+			list_row "Investors" do |c|
+				c.investors.map{|e| link_to e.name, admin_investor_path(e)}
 			end
 		end
 		panel "Categories" do 
