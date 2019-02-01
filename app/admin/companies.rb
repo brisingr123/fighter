@@ -157,7 +157,7 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 				column :name
 			end
 		end
-
+		active_admin_comments
 	end
 
 	index do 
