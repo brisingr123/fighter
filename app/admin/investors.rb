@@ -69,4 +69,15 @@ permit_params :name, company_ids: []
 		active_admin_comments
 	end
 
+	index do 
+		selectable_column
+		column "Id" do |c|
+			link_to c.id, admin_investor_path(c)
+		end
+		column :name
+		list_column "Companies", list_type: :ul do |c|
+			c.companies.map { |e| link_to e.name, admin_company_path(e) }
+		end
+	end
+
 end
