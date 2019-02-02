@@ -24,7 +24,7 @@ ActiveAdmin.register_page "Dashboard" do
     # end
 
     panel "Top Cities By Categories" do
-        @city_hash = Category.joins(:categories_companies).joins(:companies).group(:city_id).count(:name)
+        @city_hash = Category.joins(:companies).group(:city_id).count(:name)
         @city_hash_name = {}
         @city_hash.each do |k,v| 
             city = City.find_by_id(k)
