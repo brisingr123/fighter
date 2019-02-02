@@ -36,7 +36,7 @@ ActiveAdmin.register_page "Dashboard" do
 
     panel "Top Products By Companies" do
 
-        render 'shared/barchart', :collection => Product.joins(:products_companies).joins(:companies).group(:name).count(:name)
+        render 'shared/barchart', :collection => Product.joins(:companies).group(:name).count(:id)
     end
 
     # Here is an example of a simple dashboard with columns and panels.
