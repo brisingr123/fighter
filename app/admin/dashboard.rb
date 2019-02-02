@@ -3,11 +3,41 @@ ActiveAdmin.register_page "Dashboard" do
   menu priority: 1, label: proc{ I18n.t("active_admin.dashboard") }
 
   content title: proc{ I18n.t("active_admin.dashboard") } do
-    div class: "blank_slate_container", id: "dashboard_default_message" do
-      span class: "blank_slate" do
-        span I18n.t("active_admin.dashboard_welcome.welcome")
-        small I18n.t("active_admin.dashboard_welcome.call_to_action")
-      end
+    # div class: "blank_slate_container", id: "dashboard_default_message" do
+    #   span class: "blank_slate" do
+    #     span I18n.t("active_admin.dashboard_welcome.welcome")
+    #     small I18n.t("active_admin.dashboard_welcome.call_to_action")
+    #   end
+    # end
+
+    panel "Top Categories By Companies" do
+        render 'shared/barchart', :collection => Category.joins(:categories_companies).joins(:companies).group(:name).count(:name)
+    end
+
+    panel "Top Categories By Investment" do
+        puts Category.joins(:categories_companies).joins(:companies).group(:name).sum(:total_funding)
+        render 'shared/barchart', :collection => Category.joins(:categories_companies).joins(:companies).group(:name).sum(:total_funding)
+    end    
+
+    # panel "Top Categories By Number of Investors" do
+
+    #     render 'shared/barchart', :collection => Category.joins(:categories_companies).joins(:companies).joins(:companies_investors).joins(:investors).group(:name).count(:name)
+    # end
+
+    panel "Top Cities By Categories" do
+        @city_hash = Category.joins(:categories_companies).joins(:companies).group(:city_id).count(:name)
+        @city_hash_name = {}
+        @city_hash.each do |k,v| 
+            city = City.find_by_id(k)
+            !city.nil? ? @city_hash_name[city.name] = v : next 
+        end
+        puts @city_hash_name
+        render 'shared/barchart', :collection => @city_hash_name
+    end
+
+    panel "Top Products By Companies" do
+
+        render 'shared/barchart', :collection => Product.joins(:products_companies).joins(:companies).group(:name).count(:name)
     end
 
     # Here is an example of a simple dashboard with columns and panels.
