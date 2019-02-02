@@ -11,12 +11,11 @@ ActiveAdmin.register_page "Dashboard" do
     # end
 
     panel "Top Categories By Companies" do
-        render 'shared/barchart', :collection => Category.joins(:categories_companies).joins(:companies).group(:name).count(:name)
+        render 'shared/barchart', :collection => Category.joins(:categories_companies).group(:name).count(:company_id)
     end
 
     panel "Top Categories By Investment" do
-        puts Category.joins(:categories_companies).joins(:companies).group(:name).sum(:total_funding)
-        render 'shared/barchart', :collection => Category.joins(:categories_companies).joins(:companies).group(:name).sum(:total_funding)
+        render 'shared/barchart', :collection => Category.joins(:companies).group(:name).sum(:total_funding)
     end    
 
     # panel "Top Categories By Number of Investors" do
