@@ -2,7 +2,7 @@ ActiveAdmin.register Investor do
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
-permit_params :name, company_ids: [], investos_tag_ids: []
+permit_params :name, company_ids: [], investor_tag_ids: []
 #
 # or
 #
@@ -17,9 +17,15 @@ permit_params :name, company_ids: [], investos_tag_ids: []
 	form do |f|
 		f.inputs do 
 		 	f.input :name, required: true
-		 	f.input :investor_tag_ids, as: :tags, collection: InvestorTag.all, display_name: :name, :include_blank => false
+		 	f.input :website
+		 	f.input :phone
+		 	f.input :investor_tag_ids, as: :tags, collection: InvestorTag.all, display_name: :name, :include_blank => false, label: "Tags"
 
 			
+		end
+
+		f.inputs 'City' do 
+			f.input :city_id , :as => :search_select 
 		end
 
 		f.inputs 'Companies' do 
@@ -50,13 +56,15 @@ permit_params :name, company_ids: [], investos_tag_ids: []
 			@investor.investor_tags.delete(previous_tags)
 
 			@investor.investor_tags << investor_tags
+
+			@investor.update(investor_params)
 			redirect_to resource_path
 		end
 
 		private 
 
 		def investor_params 
-			params.require(:investor).permit(:name)
+			params.require(:investor).permit(:name, :city_id, :website, :phone)
 		end
 
 		def companies 
@@ -104,6 +112,8 @@ permit_params :name, company_ids: [], investos_tag_ids: []
 		list_column "Type", list_type: :ul do |c|
 			c.investor_tags.map { |e| e.name }
 		end
+
+		column :city
 	end
 
 end
