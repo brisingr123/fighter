@@ -1,0 +1,388 @@
+type,name,location,mob,website
+Accelerator,500 Startups,Delhi,,www.500.co
+Accelerator,5Ideas,,,5ideas.in
+Accelerator,"AIP, ICRISAT",Hyderabad,T: 91 40 3071 3071,www.aipicrisat.org
+Accelerator,Amity Innovation Incubator,Noida,T: 91 120 4659 000,www.amity.edu/aii
+Accelerator,Angel Prime,,,http://www.angelprime.com/home/
+Accelerator,Amrita TBI,Kollam,T: 91 476 280 4503,www.amritatbi.com
+Accelerator,BEC STEP,Bagalkot,T: 91 8354 220 689,www.becbgk.edu/step.php
+Accelerator,CIBA,Goa,,www.ciba.org.in
+Accelerator,"CIE, IIIT",Hyderabad,T: 91 40 6653 1354,www.iiith.org
+Accelerator,"CIIE, IIM",Ahmedabad,T: 91 79 6632 4201,www.ciie.co
+Accelerator,Composites Technology Park,Bengaluru,T: 91 80 6599 7605,www.compositestechnologypark.co
+Accelerator,DKTE TBI,Kolhapur,T: 91 230 242 1300,www.dktetbi.com
+Accelerator,eHealth TBI,Bengaluru,T: 91 80 2574 3600,
+Accelerator,Ekta Incubation Centre,Kolkata,T: 91 33 2367 3978,www.technologyembryo.com
+Accelerator,Global Incubation Services,Bengaluru,T: 91 80 2520 0916,www.ginserv.in
+Accelerator,Green House Accelerator,Gurgaon,,www.ghvaccelerator.com
+Accelerator,GSF Accelerator,Gurgaon,,www.gsfindia.com
+Accelerator,HealthStart,Noida,,www.healthstart.co.in
+Accelerator,i2India,Bengaluru,T: 91 80 65696979,www.venturefactory.in
+Accelerator,IAN Incubator,Delhi,T: 91 11 4075 5713,www.indianangelnetwork.com
+Accelerator,icreate,Ahmedabad,T: 91 79 2791 2803,www.icreate.org.in
+Accelerator,IIITB Innovation Centre,Bengaluru,T: 91 80 4140 7777,www.iiitb.ac.in
+Accelerator,IKP Knowledge Park,Secunderabad,T: 91 40 2348 0002,www.ikpknowledgepark.com
+Accelerator,"Incubation and Entrepreneurship Centre, SRM",Chennai,T: 91 44 2474 2836,www.srmuniv.ac.in
+Accelerator,InnAccel,Bengaluru,T: 91 80 40923864,www.innaccel.com
+Accelerator,"Innovation Park, IIM Calcutta",Kolkata,,www.iimcip.org
+Accelerator,"JSS STEP, JSSATE",Noida,T: 91 120 240 1484,www.jssstepnoida.org
+Accelerator,Kerala Startup Mission,Trivandrum,T: 91 471 270 0270,www.startupmission.kerala.gov.in
+Accelerator,Khosla Labs,Bengaluru,T: 91 80 4666 1029,www.khoslalabs.com
+Accelerator,KIIT TBI,Bubaneshwar,T: 91 674 272 5466,www.kiitincubator.in
+Accelerator,Kyron,Bengaluru,,www.kyron.me
+Accelerator,"MCIIE, IIT Varanasi",Varanasi,T: 91 542 236 8948,www.mciieiitbhu.org
+Accelerator,MICA Incubator,Ahmedabad,,www.mica.ac.in/edc/mica-incubator
+Accelerator,Morpheus,,,
+Accelerator,Microsoft Ventures Accelerator,Bengaluru,,www.microsoftventures.com
+Accelerator,MUTBI,Mumbai,T: 91 820 292 5055,www.mutbimanipal.org
+Accelerator,"NDBI, NIID",Ahmedabad,T: 91 79 2662 3692,www.ndbiindia.org
+Accelerator,NDRI,Karnal,T: 91 184 225 2800,www.karnal.gov.in
+Accelerator,NITK-STEP,Surathkal,T: 91 824 247 5490,www.nitkstep.org
+Accelerator,"NSRCEL, IIM Bengaluru",Bengaluru,T: 91 80 2699 3769,www.nsrcel.org
+Accelerator,PayPal - Start Tank,Chennai,,www.starttank.com
+Accelerator,Periyar TBI,Thanjavur,T: 91 4362 264 520,www.periyartbi.org
+Accelerator,PSG STEP,Coimbatore,T: 91 422 436 3300,www.psgstep.org
+Accelerator,Startup Village,Kochi,,www.startupvillage.in
+Accelerator,The Startup Centre,Chennai,,www.thestartupcentre.com
+Accelerator,Tlabs,Noida,,www.tlabs.in
+Accelerator,Tracxn Labs,Bengaluru,,www.tracxnlabs.com
+Accelerator,The Hatch,,,
+Accelerator,VentureNursery,Mumbai,,www.venturenursery.com
+,,,,
+Incubator,"RTBI, IIT Madras",,T: 91 44 6646 9872,www.rtbi.in
+Incubator,Shriram Institute for Industrial Research,Delhi,T: 91 11 2766 7267,www.shriraminstitute.org
+Incubator,"SID, IISc Bengaluru",Bengaluru,T: 91 80 2356 1298,www.sid.iisc.ernet.in
+Incubator,"SIIC, IIT Kanpur",Kanpur,T: 91 512 259 6646,www.iitk.ac.in/siic
+Incubator,"SINE, IIT Mumbai",Mumbai,T: 91 22 2576 7072,www.sineiitb.org
+Incubator,SJCE STEP,Mysore,T: 91 821 254 8321,www.sjcestep.in
+Incubator,Startup Village,Kochi,T: 91 484 211 0799,www.startupvillage.in
+Incubator,STEP IIT Roorkee,Roorkee,T: 91 1332 272 337,www.iitr.ac.in
+Incubator,"STEP, IIT Kharagpur",Kharagpur,T: 91 3222 281 091,www.stepiitkgp.in/entrepreneurs.html
+Incubator,"STEP, Thapar University",Patiala,T: 91 175 239 3011,www.thapar.edu
+Incubator,Tagore Center for Green TBI,Shibpur,T: 91 33 2668 1073,www.tcgtbi.iiests.ac.in
+Incubator,TBI KEC,Erode,T: 91 4294 226 633,www.tbi-kec.org
+Incubator,TBI KIET,,,www.tbi-kiet.in
+Incubator,"TBI, Anna University",Chennai,T: 91 44 2235 8363,www.annauniv.edu
+Incubator,"TBI, Bannari Amman Institute of Technology",Sathyamangalam,,www.bittbi.com
+Incubator,"TBI, BITS Pilani",Pilani,T: 91 1596 245 073,www.discovery.bits-pilani.ac.in/tbi
+Incubator,"TBI, Graphic Era University",Dehradun,T: 91 111 222 3333,www.tbigeuddn.com
+Incubator,"TBI, IGIT Sarang",Delhi,T: 91 11 2659 1057,www.igitsarang.ac.in
+Incubator,"TBI, NIT Calicut",Calicut,,www.tbi.nitc.ac.in
+Incubator,"TBI, University of Hyderabad",Hyderabad,T: 91 40 2313 5002,www.uohyd.ac.in
+Incubator,TeNeT,Chennai,,www.tenet.res.in
+Incubator,TotalStart,Kolkata,,www.totalstart.org
+Incubator,TREC-STEP,Tiruchirappalli,T: 91 431 250 0085,www.trecstep.com
+Incubator,UDSC TBI,Delhi,T: 91 11 2411 6559,www.udsctbi.org
+Incubator,UnLtd India,,T: 91 22 6888 8036,www.unltdindia.org
+Incubator,Venture Centre,Pune,T: 91 20 6401 1026,www.venturecenter.co.in
+Incubator,Villgro,Chennai,T: 91 44 6663 0400,www.villgro.org
+Incubator,VIT-TBI,Vellore,T: 91 40 2313 5000,www.vittbi.com
+Incubator,Woxsen Trade Tower,Hyderabad,T: 91 40 4444 8888,www.woxsen.edu.in/site/Trade_Tower
+Incubator,ISB Wadhwani Center for Entrepreneurship Development,Hyderabad,,http://www.isb.edu/WCED/
+Incubator,"CIIE, IIM Ahmedabad",Ahmedabad,,http://www.ciieindia.org/
+Incubator,"AMITY Innovation Incubator,Noida",Noida,,http://www.amity.edu/aii/
+Incubator,"SP Jain Institute of Management Research Center, Mumbai",Mumbai,,http://www.spjimr.org/centre_entrepreneurship/home.asp
+Incubator,"NSRCEL, IIM Bengaluru",Bengaluru,,http://www.nsrcel.org/
+Incubator,"SINE, IIT Mumbai",Mumbai,,http://www.sineiitb.org/
+Incubator,"TBI, BITS Pilani",Pilani,,http://discovery.bits-pilani.ac.in
+Incubator,"SIDBI Innovation & Incubation Centre, IIT Kanpur",Kanpur,,http://www.iitk.ac.in/siic/
+Incubator,"Rural Technology Business Incubator (RTBI), IIT Madras",Madras,,http://www.rtbi.in/
+Incubator,"NDBI (Design Incbuator), Ahmedabad",Ahmedabad,,http://www.ndbiindia.org
+Incubator,"TBI, IIT Delhi",Delhi,,http://www.fitt-iitd.org/tbiu.aspx
+Incubator,"CIE,IIIT Hyderabad",Hyderabad,,http://cie.iiit.ac.in/
+Incubator,Manipal University Business Incubator,,,http://www.mutbimanipal.org/
+Angel Network,ah! Ventures,,T: 91 98203 85685,www.ahventures.in
+Angel Network,Calcutta Angels,,,www.calcutta-angels.com
+Angel Network,CCube Angels,,T: 65 9188 0399,www.ccubeangels.com
+Angel Network,Chennai Angels,,T: 91 87 5449 4134,www.thechennaiangels.com
+Angel Network,Growx Ventures,,T: 91 11 4607 4000,www.growxventures.com
+Angel Network,GSF Superangels,,T: 91 99 5834 1479,www.gsfindia.com
+Angel Network,Hyderabad Angels,,T: 91 40 6451 3397,www.hyderabadangels.in
+Angel Network,Indian Angel Network,,"T: 91 11 4162 8566, 4075 5713",www.indianangelnetwork.com
+Angel Network,Kshatriya Ventures,,T: 91 99 302 45221,www.kshatriyaventures.com
+Angel Network,Lead Angels,,T: 022 65660023,www.leadangels.in
+Angel Network,Mumbai Angels,,T: 07506 711249,www.mumbaiangels.com
+Angel Network,Native Angel Network,,T: 91 452 4390410,www.nativeangelsnetwork.com
+Angel Network,Navlok Ventures,,,www.navlok.com
+Angel Network,Palaash Ventures,,T: 91 11 4890 0000,www.palaashventures.com
+Angel Network,Powai Lake Ventures,,,www.powailakeventures.com
+Angel Network,Rajasthan Angel Investor Network,,T: 91 98 2835 5513,www.rainjaipur.co.in
+Angel Network,Sarthi Angels,,T: 91 02 2265 28671/72,www.sarthiangels.com
+Angel Network,Seeders,,,www.seeders.in
+Angel Network,Singapore Angel Network,,,www.sgan.sg
+Angel Network,Splice Capital,,,www.splicecapital.com
+Angel Network,Sprout Angels,,T: 91 44 4344 6700,
+Angel Network,SRI Capital,,,www.sricapital.com
+Angel Network,Srijan Capital,,T: 91 81 9753 5302,www.srijancapital.com
+Angel Network,VentureNursery Angels,,T: 91 22 2670 1133,www.venturenursery.com
+,,,,
+Individual Angel,Abhishek Rungta,,,talash@indusnet.co.in
+Individual Angel,Alok Mittal,,,alokmittal@gmail.com
+Individual Angel,Aloke Bajpai,,,abajpai@ixigo.com
+Individual Angel,Anand Ladsariya,,,anand@everestflavours.com
+Individual Angel,Anand Lunia,,,anand@indiaquotient.in
+Individual Angel,Anupam Mittal,,,agmittal@yahoo.com
+Individual Angel,Binny Bansal,,,binny@flipkart.com
+Individual Angel,Deep Kalra,,,deep.kalra@makemytrip.com
+Individual Angel,Deepak Shahdadpuri,,,deepak@shahdadpuri.com
+Individual Angel,Girish Mathrubootham,,,girish@freshdesk.com
+Individual Angel,Growth Story (K Ganesh),,,ganesh@growthstory.in
+Individual Angel,Kalpataru Ventures,,,trs@sagesupport.com
+Individual Angel,Kunal Bahl,,,kunal.bahl@snapdeal.com
+Individual Angel,Madan Padaki,,,madan.padaki@head-held-high.org
+Individual Angel,Oswal Techno Ventures,,,jbokadia@oswalvalves.com
+Individual Angel,Phanindra Sama,,,phanindra.sama@gmail.com
+Individual Angel,Rajan Anandan,,,ranandan@google.com
+Individual Angel,Ravi Gururaj,,,ravi@gururaj.com
+Individual Angel,Rohit Bansal,,,Rohit.bansal@snapdeal.com
+Individual Angel,Sachin Bansal,,,sachin@flipkart.com
+Individual Angel,Samir Bangara,,,samir.bangra@gmail.com
+Individual Angel,Samir Sood,,,samir@indiaforge.in
+Individual Angel,Sanjay Kamlani,,,sanjay@pangea3.com
+Individual Angel,Sunil Kalra,,,viaprojects@gmail.com
+Individual Angel,Vijay Shekhar Sharma,,,vijayshekhar@yahoo.com
+Individual Angel,Zishaan Hayath,,,zishaan@toppr.com
+Seed Fund,50k Ventures,,,www.50kventures.com
+Seed Fund,Aarin Capital,Bengaluru,T: 91 80 3078 9100,www.aarincapital.com
+Seed Fund,AdvantEdge Partners,Delhi,,www.advantedge.vc
+Seed Fund,Agnus Capital,Bengaluru,,
+Seed Fund,Amex Ventures,"Palo Alto, CA",,wwww.americanexpress.com/us/content/amexventures
+Seed Fund,Angaros Capital,,T: 91 40 4949 2000,www.angaroscapital.com
+Seed Fund,Ankur Capital,Mumbai,,www.ankurcapital.com
+Seed Fund,ASK Pravi,Mumbai,T: 91 22 4225 8100,www.askpravi.com
+Seed Fund,Astarc Ventures,Mumbai,T: 91 22 6683 2755,www.astarcventures.com
+Seed Fund,August Capital Partners,Singapore,T: 65 3152 1248,www.augustcp.com
+Seed Fund,Avigo Capital,Delhi,T: 91 11 4368 3300,www.avigocorp.com
+Seed Fund,Blume Ventures,,,www.blumeventures.com
+Seed Fund,Das Star Ventures,,T: 91 98844 22270,
+Seed Fund,Epiphany Ventures,,T: 91 22 2652 8635,www.epiphanyventures.in
+Seed Fund,India Innovation Fund,,T: 91 80 4335 6666,www.indiainnovationfund.in
+Seed Fund,India Quotient,,,www.indiaquotient.in
+Seed Fund,Jungle Ventures,,T: 65 6423 9516,www.jungle-ventures.com
+Seed Fund,Kae Capital,,T: 91 22 2202 4184,www.kae-capital.com
+Seed Fund,Ladderup,,T: 91 22 4033 6363,www.ladderup.com
+Seed Fund,Mercatus Capital,,T:65 6776 7819,www.mercatus-capital.com
+Seed Fund,My First Cheque,,,www.myfirstcheque.com
+Seed Fund,Navam Capital,,T: 91 33 4025670,www.navamcapital.com
+Seed Fund,Orios Venture Partners,,T: 91 22 6457 6457,www.orios.gi
+Seed Fund,Prime Venture Partners,,,www.angelprime.com
+Seed Fund,Seedfund,,T: 91 22 2490 2201,www.seedfund.in
+Seed Fund,Singularity Ventures,,,www.singularityventures.in
+Seed Fund,Snow Leopard Technology Ventures,,,www.snowleopardtechventures.com
+Seed Fund,StartupXseed Ventures,,T : 91 80 41501409,www.startupxseed.in
+Seed Fund,Unicorn India Ventures,,T: 91 9323810171,www.unicornivc.com
+Seed Fund,YourNest Angel Fund,,T: 91 124 404 2155,www.yournest.in
+,,,,
+Early Stage Fund,Abraaj Group,,,www.abraaj.com
+Early Stage Fund,Accel India,Bengaluru,T: 91 80 4353 9800,www.accel.com
+Early Stage Fund,Access PE,,T: 91 22 65154700,www.accesspe.in
+Early Stage Fund,Aditya Birla PE,Mumbai,T: 91 22 4356 7400,www.adityabirla-pe.com
+Early Stage Fund,BanyanTree Finance,,T: 91 22 6623 5555,www.banyantreefinance.com
+Early Stage Fund,Bay Capital Investments,Mumbai,T: 91 22 4346 8000,www.bay-cap.com
+Early Stage Fund,Beenext Partners,Bengaluru,,www.beenext.com
+Early Stage Fund,Berggruen Holdings,Mumbai,T: 91 22 4083 1701,www.berggruenholdings.com
+Early Stage Fund,Bertelsmann India Investments,Noida,,www.bertelsmann.com
+Early Stage Fund,Bessemer,Bengaluru,T: 91 80 30829000,www.bvp.com
+Early Stage Fund,BlueHill,Singapore,T: 65 6438 5616,www.bluehill.com.sg
+Early Stage Fund,BOLD,Gurgaon,,www.boldbydesign.com
+Early Stage Fund,Bravia Capital,Mumbai,T: 91 22 6700 0500,www.braviacapital.com
+Early Stage Fund,Burman Family Office,Delhi,,
+Early Stage Fund,Canbank Ventures,,T: 91 80 2558 6506,www.canbankventure.com
+Early Stage Fund,Capvent,Bengaluru,T: 91 80 4112 89 00,www.capvent.com
+Early Stage Fund,Cargill Ventures,Delhi,T: 91 11 4601 0389,www.cargillventures.com
+Early Stage Fund,Carpediem Capital Partners,Gurgaon,,www.carpe-diem-capital.com
+Early Stage Fund,Catamaran Ventures,Bengaluru,T: 91 80 26649440,www.catamaranventures.com
+Early Stage Fund,Cisco,Bengaluru,T: 91 80 4159 3000,www.investor.cisco.com
+Early Stage Fund,CLSA Capital,,T: 91 22 5650 5050,www.clsacapital.com
+Early Stage Fund,Creador Capital,Chennai,T: 91 044 2493 4033/34,www.creador.com
+Early Stage Fund,Ennovent,Delhi,T: 91 11 4385 1999,www.ennovent.com
+Early Stage Fund,Epiphany Ventures,Mumbai,T: 91 22 24918153,www.epiphanyventures.in
+Early Stage Fund,EQ India,,T: 91 22 66156300,www.eqindiaadvisors.com
+Early Stage Fund,ERM Low Carbon Enterprise Fund,London,T: 44 20 3206 5331,www.ermfoundation-lcef.com
+Early Stage Fund,Exfinity Fund,Bengaluru,T: 91 80 45459200,www.exfinityventures.com
+Early Stage Fund,Faering Capital,Mumbai,T: 91 22 6154 9500,www.faeringcapital.com
+Early Stage Fund,FidelisWorld,,,www.fidelisworld.com
+Early Stage Fund,Forum Synergies,Bengaluru,T: 91 80 4000 6400,www.forumsynergies.com
+Early Stage Fund,Foundation Capital,"Menlo Park, CA",,www.foundationcapital.com
+Early Stage Fund,Frontline Strategy,Mumbai,T: 91 22 2826 4534 / 36,www.frontlinestrategy.com
+Early Stage Fund,Fulcrum Ventures India,Mumbai,T: 91 22 6712 8484,www.fulcrumventureindia.com
+Early Stage Fund,Fuse Capital,"Menlo Park, CA",,www.fusecapital.com
+Early Stage Fund,Gaja Capital,Mumbai,T: 91 22 2421 2280,www.gajacapital.com
+Early Stage Fund,GenNext Ventures,Mumbai,,
+Early Stage Fund,Global Asia Partners,Gurgaon,T: 91 124 472 0300,www.gapvc.com
+Early Stage Fund,Global Brain,Tokyo,,www.globalbrains.co.jp
+Early Stage Fund,Gray Ghost Ventures,Chennai,T: 91 98410 71043,www.grayghostventures.com
+Early Stage Fund,Gray Matters Capital,Bengaluru,,www.graymatterscap.com
+Early Stage Fund,GTI Group,Delhi,T: 91 11 4967 9999,www.gticapitalgroup.com
+Early Stage Fund,Hausela Capital Partners,Mumbai,,www.hausela.com
+Early Stage Fund,Haystack Investment,New York,T: 1 646 883 4777,www.haystackpartners.com
+Early Stage Fund,Helion Ventures,Bengaluru,T: 91 80 4018 3333,www.helionvc.com
+Early Stage Fund,ID Enablers,Kanpur,,
+Early Stage Fund,IDFC Alternatives,Mumbai,T: 91 22 4222 2000,www.idfc.com/alternatives/about/idfc-alternatives.htm
+Early Stage Fund,IDG Ventures India,Bengaluru,T: 91 80 4043 4836,www.idgvcindia.com
+Early Stage Fund,IFC,,T: 91 11 4111 1000,www.ifc.org
+Early Stage Fund,IFCI Ventures,,T: 91 11 4179 2800,www.ifciventure.com
+Early Stage Fund,India Innovation Fund,Bengaluru,T: 91 80 4335 6666,www.indiainnovationfund.in
+Early Stage Fund,India Internet Fund,Delhi,T: 91 99103 70732,www.indiainternetfund.com
+Early Stage Fund,India Quotient,,,www.indiaquotient.in
+Early Stage Fund,IndusAge Partners,Chennai,T: 91 44 43504050,www.indusage.com
+Early Stage Fund,Infinity Alternatives,Mumbai,,
+Early Stage Fund,Infosys Innovation Fund,Bengaluru,T: 91 80 2852 0261,www.infosys.com/about/innovation-fund
+Early Stage Fund,Infuse Ventures,Ahmedabad,T: 91 79 6632 4201 / 4234 / 4233,www.infusecapital.in
+Early Stage Fund,Innovations Investment Management,Bengaluru,T: 91 0804 9155 900,www.iinnovations.com
+Early Stage Fund,InnoVen Capital,Mumbai,T: 91 22 6744 6500,www.innovencapital.com
+Early Stage Fund,Insitor Fund,Delhi,,www.insitormanagement.com
+Early Stage Fund,Intel Capital,Bengaluru,,www.intelcapital.com
+Early Stage Fund,Inventus Capital Partners,Bengaluru,T: 91 80 41256747 / 40946510,www.inventuscap.com
+Early Stage Fund,IvyCap Ventures,Mumbai,T: 91 22 6700 0567,www.ivycapventures.com
+Early Stage Fund,JAFCO Asia,Singapore,T: 65 6224 6383,www.jafcoasia.com
+Early Stage Fund,Jungle Ventures,,T: 65 6423 9516,www.jungle-ventures.com
+Early Stage Fund,Kae Capital,Mumbai,T: 91 22 2820 2005,www.kae-capital.com
+Early Stage Fund,Kaizen PE,Mumbai,T: 91 22 6767 5757,www.kaizenpe.com
+Early Stage Fund,Kalaari Capital,Bengaluru,T: 91 80 67159600,www.kalaaricapital.com
+Early Stage Fund,Khosla Ventures,"Menlo Park, CA",T: 650/376-8500,www.khoslaventures.com
+Early Stage Fund,Kima Ventures,Paris,,www.kimaventures.com
+Early Stage Fund,Kin Advisors,Bengaluru,T: 91 80 4124 2921,www.kinadvisors.com
+Early Stage Fund,Kitara Capital,Mumbai,T: 91 22 6117 3600,www.kitaracapital.com
+Early Stage Fund,KITVEN,Bengaluru,"T: 91 80 2228 5627, 2238 6836",www.kitven.com
+Early Stage Fund,Lantern Capital,"Dallas, TX",T: 1 469 554 7900,www.lanterncp.com
+Early Stage Fund,Lightbox,Mumbai,,www.lightbox.vc
+Early Stage Fund,Lighthouse,Mumbai,T: 91 22 4204 1000,www.lhfunds.com
+Early Stage Fund,Lightspeed Ventures,,T: 91 11 4980 0800,www.lightspeedvp.com
+Early Stage Fund,Lionrock Capital,Singapore,,
+Early Stage Fund,Low Carbon Enterprise Fund,Gurgaon,T: 91 124 417 0300,www.erm.com
+Early Stage Fund,M&S Partners,Singapore,,www.ms-capitalpartners.com
+Early Stage Fund,Maiden Lane Ventures,"San Fransisco, California",,www.maidenlane.com
+Early Stage Fund,Mandala Capital Fund,Mumbai ,,www.mandala-capital.com
+Early Stage Fund,Mangrove Capital Partners,Luxemberg,T: 352 26 25 34 1,www.mangrove-vc.com
+Early Stage Fund,Mantra Ventures,Pune,T: 91 20 66 08 1700,www.mantraventures.in
+Early Stage Fund,Matrix Partners India,Mumbai,T: 91 22 67680000,www.matrixpartners.com
+Early Stage Fund,Mayfield,Mumbai,T: 91 22 6627 3000,www.mayfield.com
+Early Stage Fund,Mcap Fund,Gurgaon,T: 91 124 481 6100,www.mcapfundadvisors.com
+Early Stage Fund,Mercatus Capital,Singapore,T: 65 6776 7819,www.mercatus-capital.com
+Early Stage Fund,Milliways Ventures,,,www.milliwaysventures.com
+Early Stage Fund,Motilal Oswal,Mumbai,T: 91 22 3089 6680,www.motilaloswal.com
+Early Stage Fund,Multiples PE,Mumbai,T: 91 22 6624 5500,www.multiplesequity.com
+Early Stage Fund,Naya Ventures,Hyderabad,T: 91 40 6654 5466,www.nayaventures.com
+Early Stage Fund,Nazara Game Fund,Mumbai,T: 91 22 40330800,www.gamefund.in
+Early Stage Fund,NEA,Bengaluru,T: 91 80 6771 0801,www.nea.com
+Early Stage Fund,Nereus Capital,Mumbai,,www.nereuscap.com
+Early Stage Fund,Nexus Venture Partners,Mumbai,T: 91 22 6626 0000,www.nexusvp.com
+Early Stage Fund,Nirvana Ventures,Mumbai,T: 91 22 6742 3800,www.nirvanaventures.in
+Early Stage Fund,Nokia Growth Partners,Gurgaon,T: 91 9654998909,www.nokiagrowthpartners.com
+Early Stage Fund,Norwest,Mumbai,T: 91 22 6150 1111,www.nvp.com
+Early Stage Fund,Now Capital,"Jacksonville, FL",T: 1 888 810 8305,www.startupfundsnow.com
+Early Stage Fund,Oliphans Capital,,,www.oliphans.com
+Early Stage Fund,Omdiyar Network,Mumbai,T: 91 22 6118 7300,www.omidyar.com
+Early Stage Fund,Omnivore Partners,Mumbai,T: 91 22 2519 4490,www.omnivore.vc
+Early Stage Fund,Orios VP,Mumbai,T: 91 22 6457 6457,www.oriosvp.com
+Early Stage Fund,Outbox Ventures,Delhi,T: 91 11 41677890 /91 9990912307,www.outbox.ventures
+Early Stage Fund,P39 Capital,"San Francisco, CA",,www.p39capital.com
+Early Stage Fund,Parampara Captial,Hyderabad,,www.paramparas.com
+Early Stage Fund,Peepul Capital,Chennai,T: 44 4223 5000,www.peepulcapital.com
+Early Stage Fund,Peesh VC,Delhi,,www.peeshvc.com
+Early Stage Fund,Persistent Venture Fund,Pune,T: 91 20 6703 0000,www.persistent.com
+Early Stage Fund,Plexus Capital,"Charlotte , NC",,www.plexuscap.com
+Early Stage Fund,Powerhouse Ventures,Washington DC,,www.powerhouseventures.com
+Early Stage Fund,Prime Venture Partners,,,www.angelprime.com
+Early Stage Fund,Purvi Capital,Chicago,,www.purvicapital.com
+Early Stage Fund,Qualcomm Ventures,Bengaluru,,www.qualcomm.com/ventures
+Early Stage Fund,RAAY Global Investments,Mumbai,T: 91 22 6742 3815,www.raayinvestments.com
+Early Stage Fund,Rajasthan VC,Jaipur,T: 91 141 407 1680/ 681/ 682,www.rvcf.org
+Early Stage Fund,Rare Enterprises,Mumbai,T: 91 22 6513 0206,
+Early Stage Fund,Ratan Tata,Mumbai,T: 91 22 6665 8282,www.srtt.org
+Early Stage Fund,Rebright Partners,Singapore,T: 91 99005 76972,www.rebrightpartners.com
+Early Stage Fund,Recruit Strategic Partners,California,,www.recruitstrategicpartners.com
+Early Stage Fund,Reliance Capital,Mumbai,T: 91 22 30479800,www.reliancecapital.co.in
+Early Stage Fund,Reliance Venture,Mumbai,T: 91 22 3032 7039 / 3032 7000,www.relianceventure.com
+Early Stage Fund,Rianta Capital,London,T: 91 44 20 7016 4300,
+Early Stage Fund,Ribbit Capital,,,www.ribbitcap.com
+Early Stage Fund,Rise Capital,"San Francisco, CA",,www.risecapital.com
+Early Stage Fund,Rocket Internet,Gurgaon,,www.rocket-internet.com
+Early Stage Fund,Ru-Net Holdings,Moscow,T: 7 495 797 9763,www.ru-net.ru/en
+Early Stage Fund,Saama Capital,Bengaluru,T: 91 80 4112 8282,www.saamacapital.vc
+Early Stage Fund,Saha Fund,Bengaluru,,www.sahafund.com
+Early Stage Fund,SAIF,Gurgaon,T: 91 124 496 5500,www.saifpartners.com
+Early Stage Fund,Sands Capital,Arlington,,www.sandscapital.com
+Early Stage Fund,SEAF,Mumbai,"T: 98 1027 4483, 22 3226 7952",www.seaf.com
+Early Stage Fund,Seedfund,Mumbai,T: 91 22 2490 2201/2/3/4,www.seedfund.in
+Early Stage Fund,Sequoia Capital,Bengaluru,T: 91 80 4124 5880,www.sequoiacap.comindia
+Early Stage Fund,SIDBI VC,,T: 91 223947 3200,www.sidbiventure.co.in
+Early Stage Fund,Sixth Sense Ventures,Mumbai,T: 91 22 4017 6000,www.sixth-sense.in
+Early Stage Fund,Snow Leopard Technology Ventures,Pune,,www.snowleopardtechventures.com
+Early Stage Fund,Social+Capital Partnership,"Palo Alto, CA",,www.s23p.com
+Early Stage Fund,Sol Primero,Bengaluru,,www.solprimero.com
+Early Stage Fund,Spark Capital,Chennai,T: 91 44 4344 0000,www.sparkcapital.in
+Early Stage Fund,StartupXseed Ventures,Bengaluru,T: 91 80 4150 1409,www.startupxseed.in
+Early Stage Fund,TA Ventures,Kyiv,,www.taventure.com
+Early Stage Fund,Tano Capital,Mumbai,T: 91 22 6746 8000,www.tanocapital.com
+Early Stage Fund,Tata Capital,Mumbai,T: 91 22 6745 9000,
+Early Stage Fund,The HR Fund,Gurgaon,T: 91 9818 055177,www.thehrfund.com
+Early Stage Fund,Tiger Global,New York,T: 1 212 984 8800 / 8847,www.tigerglobal.com
+Early Stage Fund,TNN Capital,,,www.tnncapital.com
+Early Stage Fund,Trans Continental VC,Mumbai,T: 91 22 4073 3030,www.transconcapital.com
+Early Stage Fund,Translink Capital,California,T: 1 650 330 7353,www.translinkcapital.com
+Early Stage Fund,Unicorn Venture Capital,Mumbai,,www.unicornivc.com
+Early Stage Fund,Unilazer Ventures,Mumbai,T: 91 22 61093730,www.unilazer.com
+Early Stage Fund,Uniqorn Ventures,Bengaluru,,
+Early Stage Fund,Valiant Capital,"San Fransisco, California",,
+Early Stage Fund,Velos Partners,Los Angeles,T: 91 22 6751 9100,www.velospartners.com
+Early Stage Fund,Ventureast,Chennai,T: 91 44 2432 9864 / 2432 9863,www.ventureast.net
+Early Stage Fund,Vertex,Bengaluru,T: 91 80 6759 0555 / 0364,www.vertexmgt.com
+Early Stage Fund,Viktor Koenig PE Fund,Dubai,T: 971 4 328 9205,www.vk.ae
+Early Stage Fund,YourNest,Gurgaon,T: 91 124 4042155,www.yournest.in
+Early Stage Fund,YouWeCan Ventures,,,www.youwecanventures.com
+Early Stage Fund,Zephyr Peacock India,,T: 91 80 4261 3300,www.zephyrpeacock.com
+Early Stage Fund,Zodius Capital,Mumbai,T: 91 22 6110 8484,www.zodius.com
+Early Stage Fund,Darby Overseas Investments,,T: 91 22 6751 9100,www.darbyoverseas.com
+Early Stage Fund,Dragoneer Investment Group,"San Francisco, CA",,
+Early Stage Fund,DST Global,Moscow,,www.corp.mail.ru/en
+,,,,
+Venture Debt,Innoven Capital,,,http://www.innovencapital.com/
+Venture Debt,Trifecta Capital,,,http://trifectacapital.in/
+Impact Fund,Aavishkaar,Mumbai,T: 91 22 4200 5757,www.aavishkaar.in
+Impact Fund,Aavishkaar Goodwell,Mumbai,T: 91 22 61248900,www.aavishkaargoodwell.com
+Impact Fund,Accion International,Bengaluru,T: 91 80 6723 6400,www.accion.org
+Impact Fund,Acumen Fund,Mumbai,T: 91 22 6740 1500,www.acumenfund.org
+Impact Fund,ADB,Delhi,T: 91 11 2410 7200,www.adb.org
+Impact Fund,Ankur Capital,Mumbai,,www.ankurcapital.com
+Impact Fund,Aspada Investments,Bengaluru,,www.aspadainvestments.com
+Impact Fund,Bamboo Finance,Geneva,T: 41 22 544 2070,www.bamboofinance.com
+Impact Fund,Belgian Investment Company for Developing Countries,Brussels,T: 32 2 778 99 99,www.bio-invest.be
+Impact Fund,Bellwether,Hyderabad,T: 91 40 6629 7100,www.bellwetherfund.com
+Impact Fund,Capricorn,Palo Alto,T: 1 650 331 8800,www.capricornllc.com
+Impact Fund,Contrarian Drishti,Mumbai,,www.contrariandrishti.com
+Impact Fund,Creation Investments,Chicago,T: 001 312 784 3980,www.creationinvestments.com
+Impact Fund,Developing World Markets,,T: 1 203 655 5453,www.dwmarkets.com
+Impact Fund,Dia Vikas,,T: 91 12 4452 9500,www.dia-vikas.org
+Impact Fund,Elevar Equity,Bengaluru,T: 91 80 4335 6666,www.elevarequity.com
+Impact Fund,EMPGI,Delhi,T: 91 11 4377 5000,www.empgi.com
+Impact Fund,Encore Operating Partners,Dubai,T: 9714 448 7155,www.encoresolutions.org
+Impact Fund,Ennovent,,T: 91 11 4385 1999,www.ennovent.com
+Impact Fund,ERM Low Carbon Enterprise Fund,London,T: 44 20 3206 5331,
+Impact Fund,GAWA Microfinance Fund,,T: 34 915760537,www.amberscocapital.com
+Impact Fund,Gray Ghost Ventures,,T: 91 98410 71043,www.grayghostventures.com
+Impact Fund,Gray Matters Capital,Bengaluru,,
+Impact Fund,IAN - Impact,New Delhi,T: 91 11 4075 5713,www.indianangelnetwork.com
+Impact Fund,IFMR Trust,Chennai,T: 91 44 6668 7000,www.ifmr.co.in
+Impact Fund,Inclusive Ventures,,,www.inclusiveventures.com
+Impact Fund,Incofin,Chennai,,www.incofin.be
+Impact Fund,Intellecap Impact Investment Network (I3N),Mumbai,T: 91 22 6195 2700,www.bit.ly/217ZG1y
+Impact Fund,Invested Development,,T: 1 617 245 0570,www.investeddevelopment.com
+Impact Fund,Khosla Impact,California,T: 650 376 8500,www.khoslaimpact.com
+Impact Fund,LGT Venture Philanthropy,,T: 41 44 256 8110,www.lgtvp.com
+Impact Fund,Lok Capital,Delhi,T: 91 11 3090 0100,www.lokcapital.com
+Impact Fund,Michael & Susan Dell Foundation,,T: 91 11 4166 6300,www.msdf.org
+Impact Fund,MicroVentures,,T: 91 80 4095 7653,www.micro-ventures.in
+Impact Fund,MicroVest,Maryland,T: 240 380 1028,www.microvestfund.com
+Impact Fund,Norwegian Microfinance Initiative,Oslo,T: 47 22 36 22 40,www.nmimicro.no
+Impact Fund,Oikocredit,Netherlands,T: 31 33 422 40 40,www.oikocredit.coop
+Impact Fund,Omidyar Network,,T: 91 22 6118 7300,www.omidyar.com
+Impact Fund,Omnivore Partners,,T: 91 22 2519 4490,www.omnivore.vc
+Impact Fund,Opes Impact Fund,Milan,T: 39 02 36769106,www.opesfund.eu
+Impact Fund,Responsability,Mumbai,T: 91 22 3077 0300,www.responsability.com
+Impact Fund,Rianta Capital,London,T: 44 20 7016 4300,
+Impact Fund,Sorenson Impact Foundation,,T: 80149 01020,www.sorensonimpactfoundation.org
+Impact Fund,Unitus Impact,Bengaluru,T: 91 80 6723 6400,www.unitusimpact.com
+Impact Fund,Upaya Social Ventures,,T: 1 206 788 5672,www.upayasv.com
+Impact Fund,Villgro,,T: 91 44 6663 0400,www.villgro.org
