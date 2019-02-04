@@ -2,7 +2,7 @@ ActiveAdmin.register Investor do
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
-permit_params :name, company_ids: []
+permit_params :name, company_ids: [], investos_tag_ids: []
 #
 # or
 #
@@ -17,6 +17,7 @@ permit_params :name, company_ids: []
 	form do |f|
 		f.inputs do 
 		 	f.input :name, required: true
+		 	f.input :investor_tag_ids, as: :tags, collection: InvestorTag.all, display_name: :name, :include_blank => false
 
 			
 		end
@@ -33,7 +34,7 @@ permit_params :name, company_ids: []
 			@investor = Investor.create(investor_params)
 
 			@investor.companies << Company.find(companies)
-			
+			@investor.investor_tags << investor_tags
 			redirect_to resource_path(@investor)
 		end
 
@@ -44,6 +45,11 @@ permit_params :name, company_ids: []
 
 			@investor.companies << Company.find(companies)
 			
+
+			previous_tags = @investor.investor_tags
+			@investor.investor_tags.delete(previous_tags)
+
+			@investor.investor_tags << investor_tags
 			redirect_to resource_path
 		end
 
@@ -56,11 +62,27 @@ permit_params :name, company_ids: []
 		def companies 
 			params[:investor][:companies].reject { |e| e.to_s.empty? }
 		end
+
+		def investor_tags
+			tag_ids = params[:investor][:investor_tag_ids]
+			tags = []
+			tag_ids.each do |tag|
+				tag = InvestorTag.find_by_id(tag)
+				tag ? (tags << tag ) : nil 
+			end
+			tags 
+		end
 	end
 
 	show do 
 		attributes_table do 
 			row :name
+			row :city
+			row :website
+			row :phone
+			list_row "Type" do |c|
+				c.investor_tags.map{|e| e.name}
+			end
 			list_row "Companies" do |c|
 				c.companies.map{|e| e.name}
 			end
@@ -77,6 +99,10 @@ permit_params :name, company_ids: []
 		column :name
 		list_column "Companies", list_type: :ul do |c|
 			c.companies.map { |e| link_to e.name, admin_company_path(e) }
+		end
+
+		list_column "Type", list_type: :ul do |c|
+			c.investor_tags.map { |e| e.name }
 		end
 	end
 
