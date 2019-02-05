@@ -109,7 +109,7 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 			cofs = []
 			cof_names.each do |name|
 				name = name.strip 
-				cofounder = Cofounder.find_by(name: name)
+				cofounder = Cofounder.where('lower(name)= ?',name.downcase).first
 				cofounder ? (cofs << cofounder ) : (cofs << Cofounder.create(name: name))
 			end
 			cofs 
@@ -121,7 +121,7 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 			cofs = []
 			cof_names.each do |name|
 				name = name.strip 
-				investor = Investor.find_by(name: name)
+				investor = Investor.where('lower(name)= ?',name.downcase).first
 				investor ? (cofs << investor ) : (cofs << Investor.create(name: name))
 			end
 			cofs 
@@ -178,7 +178,7 @@ permit_params :name, :founded_in, :website, :last_funding, :total_funding, :team
 		column :team_size
 		list_column "Investors" do |c|
 
-			c.investors.length > 0 ? (c.investors.map { |e| e.name }) : [(link_to "Add Investor", admin_investors_path)]
+			c.investors.length > 0 ? (c.investors.map { |e| link_to e.name , admin_investor_path(e)}) : [(link_to "Add Investor", admin_investors_path)]
 		end
 		list_column "Categories" do |c|
 			c.categories.map { |e| e.name }
