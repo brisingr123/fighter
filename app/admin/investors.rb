@@ -110,7 +110,7 @@ permit_params :name, company_ids: [], investor_tag_ids: []
 		end
 
 		list_column "Type", list_type: :ul do |c|
-			c.investor_tags.map { |e| e.name }
+			c.investor_tags.map { |e| link_to e.name, admin_investor_path(e) }
 		end
 
 		column :city
