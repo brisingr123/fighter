@@ -1,24 +1,9 @@
-# README
+This app can be deployed on heroku directly. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Once Deployed, run the following commands: 
 
-Things you may want to cover:
+heroku rake db:migrate db:seed
 
-* Ruby version
+heroku rake import_cities_csv:create 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can import a csv of companies and investors by looking at format of the files "Landscape - Company Details.csv" and "investors.csv"
